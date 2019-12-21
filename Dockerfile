@@ -3,7 +3,7 @@ FROM python:3.6-stretch
 # Copy requirements
 COPY transPythonRequirements.txt /src/transPythonRequirements.txt
 
-# Update
+# install requirements
 RUN pip install -r /src/transPythonRequirements.txt
 
 # Bundle app source
