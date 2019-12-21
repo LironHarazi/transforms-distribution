@@ -9,7 +9,7 @@
 4.create GET/POST request:
 
 GET:
-  http://localhost:5000/dist?sentence=how are you
+  http://localhost:5000/dist?sentence=How are you
 
 POST:
 
@@ -18,5 +18,5 @@ POST:
   body:
 
   {
-  "sentence":"how are you"
+  "sentence":"How are you"
   }
