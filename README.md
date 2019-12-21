@@ -1,6 +1,6 @@
 # transforms-distribution
 
-1.Download\clone Dockerfile,distributionServer.py,transPythonRequirements.txt to your local machine 
+1.Download\clone Dockerfile,distributionServer.py to your local machine 
 
 2.run bash command: sudo docker build -t transformserver:latest .
 
