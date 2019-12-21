@@ -1,6 +1,7 @@
 # transforms-distribution
 
 1.run bash command: sudo docker build -t transforms:latest .
+
 2.create GET/POST request:
 
 GET:
