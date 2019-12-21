@@ -1,5 +1,7 @@
 # transforms-distribution
 
+1.Download\clone Dockerfile,distributionServer.py,transPythonRequirements.txt to your ךocal machine 
+
 1.run bash command: sudo docker build -t transforms:latest .
 
 2.After creating the image,run bash command: sudo docker run -p 5000:5000/tcp transforms
