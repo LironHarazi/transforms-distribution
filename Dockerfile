@@ -1,10 +1,10 @@
 FROM python:3.6-stretch
 
-# Copy requirements
-COPY transPythonRequirements.txt /src/transPythonRequirements.txt
-
 # Install requirements
-RUN pip install -r /src/transPythonRequirements.txt
+RUN pip install Flask>=0.9 \
+    && pip install numpy \
+    && pip install torch \
+    && pip install transformers
 
 # Bundle app source
 COPY distributionServer.py /src/distributionServer.py
