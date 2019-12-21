@@ -11,6 +11,9 @@ POST:
 url - http://localhost:5000/dist
 
 body:
+
 {
- "sentence":"how are you"
+
+"sentence":"how are you"
+
 }
